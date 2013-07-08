@@ -1,7 +1,7 @@
 {
   "name": "grunt-bower-utils",
   "description": "Bower utils for grunt",
-  "version": "0.1.0-SNAPSHOT",
+  "version": "0.1.0",
   "homepage": "https://github.com/mikaelkaron/grunt-bower-utils",
   "author": {
     "name": "Mikael Karon",
