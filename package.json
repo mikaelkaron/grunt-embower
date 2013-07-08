@@ -1,0 +1,37 @@
+{
+  "name": "grunt-bower-utils",
+  "description": "Bower utils for grunt",
+  "version": "0.1.0-SNAPSHOT",
+  "homepage": "https://github.com/mikaelkaron/grunt-bower-utils",
+  "author": {
+    "name": "Mikael Karon",
+    "email": "mikael@karon.se"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikaelkaron/grunt-bower-utils"
+  },
+  "bugs": {
+    "url": "https://github.com/mikaelkaron/grunt-bower-utils/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://mikael.mit-license.org"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies" : {
+    "bower" : "~0.10.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
