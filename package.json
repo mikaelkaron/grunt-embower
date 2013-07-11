@@ -1,18 +1,18 @@
 {
-  "name": "grunt-bower-utils",
-  "description": "Bower utils for grunt",
-  "version": "0.1.1-SNAPSHOT",
-  "homepage": "https://github.com/mikaelkaron/grunt-bower-utils",
+  "name": "grunt-enbower",
+  "description": "Grunt and bower sitting in a tree",
+  "version": "0.2.0-SNAPSHOT",
+  "homepage": "https://github.com/mikaelkaron/grunt-enbower",
   "author": {
     "name": "Mikael Karon",
     "email": "mikael@karon.se"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mikaelkaron/grunt-bower-utils"
+    "url": "https://github.com/mikaelkaron/grunt-enbower"
   },
   "bugs": {
-    "url": "https://github.com/mikaelkaron/grunt-bower-utils/issues"
+    "url": "https://github.com/mikaelkaron/grunt-enbower/issues"
   },
   "licenses": [
     {
@@ -25,7 +25,7 @@
     "node": ">= 0.8.0"
   },
   "dependencies" : {
-    "bower" : "~0.10.0"
+    "bower-canary" : "~1.0"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
