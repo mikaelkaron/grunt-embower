@@ -1,5 +1,5 @@
 /*
- * grunt-enbower/list
+ * grunt-embower/list
  * https://github.com/mikaelkaron/grunt-git-dist
  *
  * Copyright (c) 2013 Mikael Karon
@@ -25,7 +25,7 @@ module.exports = function(grunt) {
 	var process = require("../utils/process")(grunt);
 	var requires = require("../utils/requires")(grunt);
 
-	grunt.task.registerTask("enbower-list", "List bower components", function (cwd) {
+	grunt.task.registerTask("embower-list", "List bower components", function (cwd) {
 		// Create config object, add `cwd` if provided
 		var config = _.extend({}, bower.config, cwd && {
 			"cwd" : cwd
@@ -36,7 +36,7 @@ module.exports = function(grunt) {
 
 		// Create `options` defaults and then override from grunt config
 		var options = {};
-		options[DELIMITERS] = "enbower";
+		options[DELIMITERS] = "embower";
 		options = this.options(options);
 
 		// With GLOBAL, CONFIG and FILE

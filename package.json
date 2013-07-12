@@ -1,18 +1,18 @@
 {
-  "name": "grunt-enbower",
+  "name": "grunt-embower",
   "description": "Grunt and bower sitting in a tree",
   "version": "0.2.0-SNAPSHOT",
-  "homepage": "https://github.com/mikaelkaron/grunt-enbower",
+  "homepage": "https://github.com/mikaelkaron/grunt-embower",
   "author": {
     "name": "Mikael Karon",
     "email": "mikael@karon.se"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mikaelkaron/grunt-enbower"
+    "url": "https://github.com/mikaelkaron/grunt-embower"
   },
   "bugs": {
-    "url": "https://github.com/mikaelkaron/grunt-enbower/issues"
+    "url": "https://github.com/mikaelkaron/grunt-embower/issues"
   },
   "licenses": [
     {
