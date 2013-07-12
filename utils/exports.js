@@ -7,7 +7,7 @@ module.exports = function (grunt) {
 		var me = this;
 
 		if (GLOBAL in me) {
-			global[options[GLOBAL]] = result;
+			global[me[GLOBAL]] = result;
 		}
 
 		if (CONFIG in me) {
