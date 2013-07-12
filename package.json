@@ -1,7 +1,7 @@
 {
   "name": "grunt-embower",
   "description": "Grunt and bower sitting in a tree",
-  "version": "0.2.0-SNAPSHOT",
+  "version": "0.2.0",
   "homepage": "https://github.com/mikaelkaron/grunt-embower",
   "author": {
     "name": "Mikael Karon",
